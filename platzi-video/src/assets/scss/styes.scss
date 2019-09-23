@@ -1,0 +1,21 @@
+// Lib
+@import './lib/base-colors';
+@import './lib/variables';
+@import './lib/mixins-media';
+@import './lib/placeholders';
+
+
+// General
+@import './global/reset';
+@import './global/general';
+@import './global/class';
+
+// Main components
+@import './components/Carousel.scss';
+@import './components/CarouselItem.scss';
+
+// Layout
+@import './components/Layout/Header.scss';
+@import './components/Layout/Search.scss';
+@import './components/Layout/Categories.scss';
+@import './components/Layout/Footer.scss';
