@@ -2,6 +2,7 @@
 @import './lib/base-colors';
 @import './lib/variables';
 @import './lib/mixins-media';
+@import './lib/mixins';
 @import './lib/placeholders';
 
 
@@ -15,7 +16,13 @@
 @import './components/CarouselItem.scss';
 
 // Layout
-@import './components/Layout/Header.scss';
-@import './components/Layout/Search.scss';
-@import './components/Layout/Categories.scss';
-@import './components/Layout/Footer.scss';
+@import './Layout/Header.scss';
+@import './Layout/Branch.scss';
+@import './Layout/Search.scss';
+@import './Layout/Categories.scss';
+@import './Layout/Footer.scss';
+
+// Pages
+@import './pages/login';
+@import './pages/signin';
+@import './pages/notFound';

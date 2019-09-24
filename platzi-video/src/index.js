@@ -1,18 +1,18 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-import App from './App'
+import App from './App';
 
-const app = document.getElementById('app')
+const app = document.getElementById('app');
 
 function render() {
-  ReactDOM.render(<App />, app)
+  ReactDOM.render(<App />, app);
 }
 
-render()
+render();
 
-if(module.hot) {
+if (module.hot) {
   module.hot.accept(App, () => {
-    render()
-  })
+    render();
+  });
 }

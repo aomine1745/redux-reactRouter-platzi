@@ -1,7 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-import logo from '../../assets/img/logo-platzi-video-BW2.png';
-import userIcon from '../../assets/img/user-icon.png';
+import logo from '../assets/img/logo-platzi-video-BW2.png';
+import userIcon from '../assets/img/user-icon.png';
 
 const Header = () => (
   <header className='Header'>
@@ -17,7 +18,7 @@ const Header = () => (
         </div>
         <ul className='User__actions'>
           <li className='User__actions-item'><a href='/' className='User__actions-link'>Cuenta</a></li>
-          <li className='User__actions-item'><a href='/' className='User__actions-link'>Cerrar Sesión</a></li>
+          <li className='User__actions-item'><Link to='/login' className='User__actions-link'>Cerrar Sesión</Link></li>
         </ul>
       </div>
     </div>
