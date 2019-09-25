@@ -32,6 +32,7 @@
 		align-items: center;
 		&-icon {
 			width: 50px;
+			border-radius: 50%;
 			@include desktop(400px) {
 				width: 40px;
 				margin-left: 12px;
@@ -44,12 +45,16 @@
 	&__actions {
 		display: none;
 		position: absolute;
+		right: 0;
 		text-align: right;
 		&-item {
 			margin-top: 10px;
 		}
-		&-link:hover {
-			text-decoration: underline;
+		&-link {
+			cursor: pointer;
+			&:hover {
+				text-decoration: underline;
+			}
 		}
 	}
 	&__profile:hover &__actions {

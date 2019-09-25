@@ -30,4 +30,10 @@
 			color: inherit;
 		}
 	}
+	&__query {
+		color: $light;
+		&-resalt {
+			font-weight: bold;
+		}
+	}
 }

@@ -5,7 +5,7 @@ const NotFound = () => (
   <>
 
     <Helmet bodyAttributes={{ style: 'background-image: linear-gradient(#21c08b, #ab88ff);' }}>
-      <title>PLatzi Video | Page Not Found</title>
+      <title>Platzi Video | Page Not Found</title>
     </Helmet>
 
     <section className='notFound'>
