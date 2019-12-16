@@ -1,7 +1,6 @@
 {
   "version": 2,
-  "name": "aomine-platzi-video",
-  "alias": ["aomine-platzi-video"],
+  "name": "aomine-platzi-video-redux",
   "builds": [
     {
       "use": "@now/static-build",
